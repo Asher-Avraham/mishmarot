@@ -1,0 +1,3958 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password_hash": "$2a$10$ZOSMDKskg3qMB4yvQOzLLuI8/Hu3mRzJpqj2PCDd6bYDzAS.Pp4Yq",
+      "role": "admin",
+      "employee_id": null,
+      "is_active": 1,
+      "created_at": "2026-06-07T00:34:31.891Z",
+      "updated_at": "2026-06-07T00:34:31.892Z"
+    },
+    {
+      "id": 2,
+      "username": "omer",
+      "password_hash": "$2a$10$0QS3HHFoREGrnkdtlx9w2ubOe6bZ17ZxM0MTJTtsTwUzYKfspdPKm",
+      "role": "employee",
+      "employee_id": 1,
+      "is_active": 0,
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T02:06:56.891Z"
+    },
+    {
+      "id": 3,
+      "username": "shira",
+      "password_hash": "$2a$10$0QS3HHFoREGrnkdtlx9w2ubOe6bZ17ZxM0MTJTtsTwUzYKfspdPKm",
+      "role": "employee",
+      "employee_id": 2,
+      "is_active": 0,
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T02:06:58.907Z"
+    },
+    {
+      "id": 4,
+      "username": "daniel",
+      "password_hash": "$2a$10$0QS3HHFoREGrnkdtlx9w2ubOe6bZ17ZxM0MTJTtsTwUzYKfspdPKm",
+      "role": "employee",
+      "employee_id": 3,
+      "is_active": 0,
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T02:06:39.309Z"
+    },
+    {
+      "id": 5,
+      "username": "michal",
+      "password_hash": "$2a$10$0QS3HHFoREGrnkdtlx9w2ubOe6bZ17ZxM0MTJTtsTwUzYKfspdPKm",
+      "role": "employee",
+      "employee_id": 4,
+      "is_active": 0,
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T02:06:54.725Z"
+    },
+    {
+      "id": 6,
+      "username": "yoni",
+      "password_hash": "$2a$10$0QS3HHFoREGrnkdtlx9w2ubOe6bZ17ZxM0MTJTtsTwUzYKfspdPKm",
+      "role": "employee",
+      "employee_id": 5,
+      "is_active": 0,
+      "created_at": "2026-06-07T00:34:32.004Z",
+      "updated_at": "2026-06-07T02:06:51.158Z"
+    },
+    {
+      "id": 7,
+      "username": "asher",
+      "password_hash": "$2a$10$6n0ObUw3ecxawmyJWLZ8/eO.f6W5Nc2FQVpTpYvrUyC0Ih5Mlcrsm",
+      "role": "employee",
+      "employee_id": 6,
+      "is_active": 1,
+      "created_at": "2026-06-07T00:46:15.542Z",
+      "updated_at": "2026-06-07T00:46:15.542Z"
+    },
+    {
+      "id": 8,
+      "username": "edi",
+      "password_hash": "$2a$10$omKIaxm.jGmN6wfIgvhTTOKLkd6XgG8mcdMos7z.6nUOAWL7P1kMm",
+      "role": "employee",
+      "employee_id": 7,
+      "is_active": 1,
+      "created_at": "2026-06-07T02:02:44.058Z",
+      "updated_at": "2026-06-07T02:02:44.058Z"
+    },
+    {
+      "id": 9,
+      "username": "eilan",
+      "password_hash": "$2a$10$VcxtturOx0JUIH7ScGoOa.LpAjRTbk9RM98hyK8dCta/HPbJBjDZK",
+      "role": "employee",
+      "employee_id": 8,
+      "is_active": 1,
+      "created_at": "2026-06-07T02:03:01.628Z",
+      "updated_at": "2026-06-07T02:03:01.628Z"
+    },
+    {
+      "id": 10,
+      "username": "yuval",
+      "password_hash": "$2a$10$X.o/Yy.ZjqhNhFZEAOINK.QZM8PCeJD7FzOnnortw2Ha59rtgV6O.",
+      "role": "employee",
+      "employee_id": 9,
+      "is_active": 1,
+      "created_at": "2026-06-07T02:03:17.097Z",
+      "updated_at": "2026-06-07T02:03:17.097Z"
+    },
+    {
+      "id": 11,
+      "username": "chanan",
+      "password_hash": "$2a$10$Ti0JAGIu/fc4zVQjjcQZ2.6Q/H2x9EmS.ePL/bUGGJsSMWz5lXs5y",
+      "role": "employee",
+      "employee_id": 10,
+      "is_active": 1,
+      "created_at": "2026-06-07T02:03:50.546Z",
+      "updated_at": "2026-06-07T02:03:50.546Z"
+    },
+    {
+      "id": 12,
+      "username": "yedidya",
+      "password_hash": "$2a$10$XtirnsBrVCf9/ZVrgiPKquam77ID9IPNFs/t55k/GNHneRaZUsbrK",
+      "role": "employee",
+      "employee_id": 11,
+      "is_active": 1,
+      "created_at": "2026-06-07T02:04:10.878Z",
+      "updated_at": "2026-06-07T02:04:10.878Z"
+    },
+    {
+      "id": 13,
+      "username": "noam",
+      "password_hash": "$2a$10$pO4Bv1DQHsjNijcSk07plu5IvY/pSp6JfWtbDAZw1d9RK7KiHN5EK",
+      "role": "employee",
+      "employee_id": 12,
+      "is_active": 1,
+      "created_at": "2026-06-07T02:04:32.113Z",
+      "updated_at": "2026-06-07T02:04:32.113Z"
+    },
+    {
+      "id": 14,
+      "username": "ranan",
+      "password_hash": "$2a$10$2mQltw4.V3bPmFaovYYyUeDaoK176rMOcl4P6KXSjL.zGJKTEyLqq",
+      "role": "employee",
+      "employee_id": 13,
+      "is_active": 1,
+      "created_at": "2026-06-07T02:04:51.210Z",
+      "updated_at": "2026-06-07T02:04:51.210Z"
+    },
+    {
+      "id": 15,
+      "username": "yitzhak",
+      "password_hash": "$2a$10$Poqp5t0SmoLDNLGARjcq/Oh1fviKpBCarEJw62V6q7OScXcZK.f.a",
+      "role": "employee",
+      "employee_id": 14,
+      "is_active": 1,
+      "created_at": "2026-06-07T02:05:12.786Z",
+      "updated_at": "2026-06-07T02:05:12.786Z"
+    },
+    {
+      "id": 16,
+      "username": "hadarel",
+      "password_hash": "$2a$10$wRJJypj06kHwT980npvhDexlVN0hvM9qzzuZE12BsIhhH9KEPZcHm",
+      "role": "employee",
+      "employee_id": 15,
+      "is_active": 1,
+      "created_at": "2026-06-07T02:05:33.381Z",
+      "updated_at": "2026-06-07T02:05:33.381Z"
+    },
+    {
+      "id": 17,
+      "username": "dor",
+      "password_hash": "$2a$10$AijqlmPfEYyIzOm1CMpI6ubs7vZ6MuUXZFDtc6VYggR9YWFhzdW7C",
+      "role": "employee",
+      "employee_id": 16,
+      "is_active": 1,
+      "created_at": "2026-06-07T02:05:48.745Z",
+      "updated_at": "2026-06-07T02:05:48.745Z"
+    },
+    {
+      "id": 18,
+      "username": "chooter",
+      "password_hash": "$2a$10$dcLZqh5rXWUfeR0G/sPpD.Piluivhri3A8Y.m43NiPI2qyK7xYgR6",
+      "role": "employee",
+      "employee_id": 17,
+      "is_active": 1,
+      "created_at": "2026-06-07T02:06:17.867Z",
+      "updated_at": "2026-06-07T02:06:17.867Z"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "full_name": "עומר כהן",
+      "phone": "052-1234567",
+      "is_active": 0,
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T02:06:56.891Z"
+    },
+    {
+      "id": 2,
+      "full_name": "שירה לוי",
+      "phone": "054-7654321",
+      "is_active": 0,
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T02:06:58.907Z"
+    },
+    {
+      "id": 3,
+      "full_name": "דניאל מזרחי",
+      "phone": "050-9998887",
+      "is_active": 0,
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T02:06:39.309Z"
+    },
+    {
+      "id": 4,
+      "full_name": "מיכל אברהם",
+      "phone": "053-1112223",
+      "is_active": 0,
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T02:06:54.725Z"
+    },
+    {
+      "id": 5,
+      "full_name": "יוני גרין",
+      "phone": "058-4445556",
+      "is_active": 0,
+      "created_at": "2026-06-07T00:34:32.004Z",
+      "updated_at": "2026-06-07T02:06:51.158Z"
+    },
+    {
+      "id": 6,
+      "full_name": "אשר אברהם",
+      "phone": "0548100895",
+      "is_active": 1,
+      "created_at": "2026-06-07T00:46:15.542Z",
+      "updated_at": "2026-06-07T00:46:15.542Z"
+    },
+    {
+      "id": 7,
+      "full_name": "אדי",
+      "phone": null,
+      "is_active": 1,
+      "created_at": "2026-06-07T02:02:44.058Z",
+      "updated_at": "2026-06-07T02:02:44.058Z"
+    },
+    {
+      "id": 8,
+      "full_name": "אילן",
+      "phone": null,
+      "is_active": 1,
+      "created_at": "2026-06-07T02:03:01.628Z",
+      "updated_at": "2026-06-07T02:03:01.628Z"
+    },
+    {
+      "id": 9,
+      "full_name": "יובל",
+      "phone": null,
+      "is_active": 1,
+      "created_at": "2026-06-07T02:03:17.097Z",
+      "updated_at": "2026-06-07T02:03:17.097Z"
+    },
+    {
+      "id": 10,
+      "full_name": "חנן",
+      "phone": null,
+      "is_active": 1,
+      "created_at": "2026-06-07T02:03:50.546Z",
+      "updated_at": "2026-06-07T02:03:50.546Z"
+    },
+    {
+      "id": 11,
+      "full_name": "ידידיה",
+      "phone": null,
+      "is_active": 1,
+      "created_at": "2026-06-07T02:04:10.878Z",
+      "updated_at": "2026-06-07T02:04:10.878Z"
+    },
+    {
+      "id": 12,
+      "full_name": "נועם",
+      "phone": null,
+      "is_active": 1,
+      "created_at": "2026-06-07T02:04:32.113Z",
+      "updated_at": "2026-06-07T02:04:32.113Z"
+    },
+    {
+      "id": 13,
+      "full_name": "רענן",
+      "phone": null,
+      "is_active": 1,
+      "created_at": "2026-06-07T02:04:51.210Z",
+      "updated_at": "2026-06-07T02:04:51.210Z"
+    },
+    {
+      "id": 14,
+      "full_name": "יצחק",
+      "phone": null,
+      "is_active": 1,
+      "created_at": "2026-06-07T02:05:12.786Z",
+      "updated_at": "2026-06-07T02:05:12.786Z"
+    },
+    {
+      "id": 15,
+      "full_name": "הדראל",
+      "phone": null,
+      "is_active": 1,
+      "created_at": "2026-06-07T02:05:33.381Z",
+      "updated_at": "2026-06-07T02:05:33.381Z"
+    },
+    {
+      "id": 16,
+      "full_name": "דור",
+      "phone": null,
+      "is_active": 1,
+      "created_at": "2026-06-07T02:05:48.745Z",
+      "updated_at": "2026-06-07T02:05:48.745Z"
+    },
+    {
+      "id": 17,
+      "full_name": "חוטר",
+      "phone": null,
+      "is_active": 1,
+      "created_at": "2026-06-07T02:06:17.867Z",
+      "updated_at": "2026-06-07T02:06:17.867Z"
+    }
+  ],
+  "schedule_weeks": [
+    {
+      "id": 1,
+      "week_start_date": "2026-06-14",
+      "week_end_date": "2026-06-20",
+      "status": "open",
+      "created_at": "2026-06-07T00:34:31.892Z",
+      "updated_at": "2026-06-07T00:34:31.892Z"
+    }
+  ],
+  "employee_time_preferences": [
+    {
+      "id": 1,
+      "employee_id": 1,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 2,
+      "employee_id": 1,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 3,
+      "employee_id": 1,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "night",
+      "preference_status": "prefer",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 4,
+      "employee_id": 1,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "morning",
+      "preference_status": "avoid",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 5,
+      "employee_id": 1,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 6,
+      "employee_id": 1,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 7,
+      "employee_id": 1,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 8,
+      "employee_id": 1,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 9,
+      "employee_id": 1,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 10,
+      "employee_id": 1,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 11,
+      "employee_id": 1,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 12,
+      "employee_id": 1,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 13,
+      "employee_id": 1,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 14,
+      "employee_id": 1,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 15,
+      "employee_id": 1,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 16,
+      "employee_id": 1,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "morning",
+      "preference_status": "cannot",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 17,
+      "employee_id": 1,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "noon",
+      "preference_status": "cannot",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 18,
+      "employee_id": 1,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "night",
+      "preference_status": "cannot",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 19,
+      "employee_id": 1,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 20,
+      "employee_id": 1,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 21,
+      "employee_id": 1,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 22,
+      "employee_id": 2,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 23,
+      "employee_id": 2,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 24,
+      "employee_id": 2,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 25,
+      "employee_id": 2,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 26,
+      "employee_id": 2,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 27,
+      "employee_id": 2,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 28,
+      "employee_id": 2,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 29,
+      "employee_id": 2,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 30,
+      "employee_id": 2,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 31,
+      "employee_id": 2,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 32,
+      "employee_id": 2,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 33,
+      "employee_id": 2,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "night",
+      "preference_status": "cannot",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 34,
+      "employee_id": 2,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "morning",
+      "preference_status": "prefer",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 35,
+      "employee_id": 2,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 36,
+      "employee_id": 2,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 37,
+      "employee_id": 2,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 38,
+      "employee_id": 2,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 39,
+      "employee_id": 2,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 40,
+      "employee_id": 2,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "morning",
+      "preference_status": "cannot",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 41,
+      "employee_id": 2,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "noon",
+      "preference_status": "cannot",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 42,
+      "employee_id": 2,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "night",
+      "preference_status": "cannot",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 43,
+      "employee_id": 3,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 44,
+      "employee_id": 3,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 45,
+      "employee_id": 3,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 46,
+      "employee_id": 3,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 47,
+      "employee_id": 3,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "noon",
+      "preference_status": "avoid",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 48,
+      "employee_id": 3,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 49,
+      "employee_id": 3,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "morning",
+      "preference_status": "prefer",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 50,
+      "employee_id": 3,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 51,
+      "employee_id": 3,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 52,
+      "employee_id": 3,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 53,
+      "employee_id": 3,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 54,
+      "employee_id": 3,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 55,
+      "employee_id": 3,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 56,
+      "employee_id": 3,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 57,
+      "employee_id": 3,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 58,
+      "employee_id": 3,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 59,
+      "employee_id": 3,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 60,
+      "employee_id": 3,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 61,
+      "employee_id": 3,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 62,
+      "employee_id": 3,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 63,
+      "employee_id": 3,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 64,
+      "employee_id": 4,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "morning",
+      "preference_status": "cannot",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 65,
+      "employee_id": 4,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "noon",
+      "preference_status": "cannot",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 66,
+      "employee_id": 4,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "night",
+      "preference_status": "cannot",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 67,
+      "employee_id": 4,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 68,
+      "employee_id": 4,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "noon",
+      "preference_status": "prefer",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 69,
+      "employee_id": 4,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 70,
+      "employee_id": 4,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 71,
+      "employee_id": 4,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "noon",
+      "preference_status": "prefer",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 72,
+      "employee_id": 4,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 73,
+      "employee_id": 4,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 74,
+      "employee_id": 4,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "noon",
+      "preference_status": "prefer",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.003Z"
+    },
+    {
+      "id": 75,
+      "employee_id": 4,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.003Z",
+      "updated_at": "2026-06-07T00:34:32.004Z"
+    },
+    {
+      "id": 76,
+      "employee_id": 4,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.004Z",
+      "updated_at": "2026-06-07T00:34:32.004Z"
+    },
+    {
+      "id": 77,
+      "employee_id": 4,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "noon",
+      "preference_status": "prefer",
+      "created_at": "2026-06-07T00:34:32.004Z",
+      "updated_at": "2026-06-07T00:34:32.004Z"
+    },
+    {
+      "id": 78,
+      "employee_id": 4,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.004Z",
+      "updated_at": "2026-06-07T00:34:32.004Z"
+    },
+    {
+      "id": 79,
+      "employee_id": 4,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.004Z",
+      "updated_at": "2026-06-07T00:34:32.004Z"
+    },
+    {
+      "id": 80,
+      "employee_id": 4,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "noon",
+      "preference_status": "prefer",
+      "created_at": "2026-06-07T00:34:32.004Z",
+      "updated_at": "2026-06-07T00:34:32.004Z"
+    },
+    {
+      "id": 81,
+      "employee_id": 4,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.004Z",
+      "updated_at": "2026-06-07T00:34:32.004Z"
+    },
+    {
+      "id": 82,
+      "employee_id": 4,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.004Z",
+      "updated_at": "2026-06-07T00:34:32.004Z"
+    },
+    {
+      "id": 83,
+      "employee_id": 4,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "noon",
+      "preference_status": "prefer",
+      "created_at": "2026-06-07T00:34:32.004Z",
+      "updated_at": "2026-06-07T00:34:32.004Z"
+    },
+    {
+      "id": 84,
+      "employee_id": 4,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.004Z",
+      "updated_at": "2026-06-07T00:34:32.004Z"
+    },
+    {
+      "id": 85,
+      "employee_id": 5,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.004Z",
+      "updated_at": "2026-06-07T00:34:32.004Z"
+    },
+    {
+      "id": 86,
+      "employee_id": 5,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.004Z",
+      "updated_at": "2026-06-07T00:34:32.004Z"
+    },
+    {
+      "id": 87,
+      "employee_id": 5,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.004Z",
+      "updated_at": "2026-06-07T00:34:32.004Z"
+    },
+    {
+      "id": 88,
+      "employee_id": 5,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.004Z",
+      "updated_at": "2026-06-07T00:34:32.004Z"
+    },
+    {
+      "id": 89,
+      "employee_id": 5,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.004Z",
+      "updated_at": "2026-06-07T00:34:32.004Z"
+    },
+    {
+      "id": 90,
+      "employee_id": 5,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.004Z",
+      "updated_at": "2026-06-07T00:34:32.004Z"
+    },
+    {
+      "id": 91,
+      "employee_id": 5,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.004Z",
+      "updated_at": "2026-06-07T00:34:32.004Z"
+    },
+    {
+      "id": 92,
+      "employee_id": 5,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.004Z",
+      "updated_at": "2026-06-07T00:34:32.004Z"
+    },
+    {
+      "id": 93,
+      "employee_id": 5,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.004Z",
+      "updated_at": "2026-06-07T00:34:32.004Z"
+    },
+    {
+      "id": 94,
+      "employee_id": 5,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.004Z",
+      "updated_at": "2026-06-07T00:34:32.004Z"
+    },
+    {
+      "id": 95,
+      "employee_id": 5,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.004Z",
+      "updated_at": "2026-06-07T00:34:32.004Z"
+    },
+    {
+      "id": 96,
+      "employee_id": 5,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.004Z",
+      "updated_at": "2026-06-07T00:34:32.004Z"
+    },
+    {
+      "id": 97,
+      "employee_id": 5,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.004Z",
+      "updated_at": "2026-06-07T00:34:32.004Z"
+    },
+    {
+      "id": 98,
+      "employee_id": 5,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.004Z",
+      "updated_at": "2026-06-07T00:34:32.004Z"
+    },
+    {
+      "id": 99,
+      "employee_id": 5,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.004Z",
+      "updated_at": "2026-06-07T00:34:32.004Z"
+    },
+    {
+      "id": 100,
+      "employee_id": 5,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.004Z",
+      "updated_at": "2026-06-07T00:34:32.004Z"
+    },
+    {
+      "id": 101,
+      "employee_id": 5,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.004Z",
+      "updated_at": "2026-06-07T00:34:32.004Z"
+    },
+    {
+      "id": 102,
+      "employee_id": 5,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "night",
+      "preference_status": "cannot",
+      "created_at": "2026-06-07T00:34:32.004Z",
+      "updated_at": "2026-06-07T00:34:32.004Z"
+    },
+    {
+      "id": 103,
+      "employee_id": 5,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.004Z",
+      "updated_at": "2026-06-07T00:34:32.004Z"
+    },
+    {
+      "id": 104,
+      "employee_id": 5,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.004Z",
+      "updated_at": "2026-06-07T00:34:32.004Z"
+    },
+    {
+      "id": 105,
+      "employee_id": 5,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:34:32.004Z",
+      "updated_at": "2026-06-07T00:34:32.004Z"
+    },
+    {
+      "id": 106,
+      "employee_id": 6,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "morning",
+      "preference_status": "prefer",
+      "created_at": "2026-06-07T00:46:15.542Z",
+      "updated_at": "2026-06-07T00:46:53.880Z"
+    },
+    {
+      "id": 107,
+      "employee_id": 6,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:46:15.542Z",
+      "updated_at": "2026-06-07T00:46:53.880Z"
+    },
+    {
+      "id": 108,
+      "employee_id": 6,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "night",
+      "preference_status": "cannot",
+      "created_at": "2026-06-07T00:46:15.542Z",
+      "updated_at": "2026-06-07T00:46:53.880Z"
+    },
+    {
+      "id": 109,
+      "employee_id": 6,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "morning",
+      "preference_status": "prefer",
+      "created_at": "2026-06-07T00:46:15.542Z",
+      "updated_at": "2026-06-07T00:46:53.880Z"
+    },
+    {
+      "id": 110,
+      "employee_id": 6,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:46:15.542Z",
+      "updated_at": "2026-06-07T00:46:53.880Z"
+    },
+    {
+      "id": 111,
+      "employee_id": 6,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "night",
+      "preference_status": "cannot",
+      "created_at": "2026-06-07T00:46:15.542Z",
+      "updated_at": "2026-06-07T00:46:53.880Z"
+    },
+    {
+      "id": 112,
+      "employee_id": 6,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:46:15.542Z",
+      "updated_at": "2026-06-07T00:46:53.880Z"
+    },
+    {
+      "id": 113,
+      "employee_id": 6,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:46:15.542Z",
+      "updated_at": "2026-06-07T00:46:53.880Z"
+    },
+    {
+      "id": 114,
+      "employee_id": 6,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:46:15.542Z",
+      "updated_at": "2026-06-07T00:46:53.880Z"
+    },
+    {
+      "id": 115,
+      "employee_id": 6,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:46:15.542Z",
+      "updated_at": "2026-06-07T00:46:53.880Z"
+    },
+    {
+      "id": 116,
+      "employee_id": 6,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:46:15.542Z",
+      "updated_at": "2026-06-07T00:46:53.880Z"
+    },
+    {
+      "id": 117,
+      "employee_id": 6,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:46:15.542Z",
+      "updated_at": "2026-06-07T00:46:53.880Z"
+    },
+    {
+      "id": 118,
+      "employee_id": 6,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:46:15.542Z",
+      "updated_at": "2026-06-07T00:46:53.880Z"
+    },
+    {
+      "id": 119,
+      "employee_id": 6,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:46:15.542Z",
+      "updated_at": "2026-06-07T00:46:53.880Z"
+    },
+    {
+      "id": 120,
+      "employee_id": 6,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:46:15.542Z",
+      "updated_at": "2026-06-07T00:46:53.880Z"
+    },
+    {
+      "id": 121,
+      "employee_id": 6,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:46:15.542Z",
+      "updated_at": "2026-06-07T00:46:53.880Z"
+    },
+    {
+      "id": 122,
+      "employee_id": 6,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:46:15.542Z",
+      "updated_at": "2026-06-07T00:46:53.880Z"
+    },
+    {
+      "id": 123,
+      "employee_id": 6,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:46:15.542Z",
+      "updated_at": "2026-06-07T00:46:53.880Z"
+    },
+    {
+      "id": 124,
+      "employee_id": 6,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:46:15.542Z",
+      "updated_at": "2026-06-07T00:46:53.880Z"
+    },
+    {
+      "id": 125,
+      "employee_id": 6,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:46:15.542Z",
+      "updated_at": "2026-06-07T00:46:53.880Z"
+    },
+    {
+      "id": 126,
+      "employee_id": 6,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T00:46:15.542Z",
+      "updated_at": "2026-06-07T00:46:53.880Z"
+    },
+    {
+      "id": 127,
+      "employee_id": 7,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:02:44.058Z",
+      "updated_at": "2026-06-07T02:02:44.058Z"
+    },
+    {
+      "id": 128,
+      "employee_id": 7,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:02:44.058Z",
+      "updated_at": "2026-06-07T02:02:44.058Z"
+    },
+    {
+      "id": 129,
+      "employee_id": 7,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:02:44.058Z",
+      "updated_at": "2026-06-07T02:02:44.058Z"
+    },
+    {
+      "id": 130,
+      "employee_id": 7,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:02:44.058Z",
+      "updated_at": "2026-06-07T02:02:44.058Z"
+    },
+    {
+      "id": 131,
+      "employee_id": 7,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:02:44.058Z",
+      "updated_at": "2026-06-07T02:02:44.058Z"
+    },
+    {
+      "id": 132,
+      "employee_id": 7,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:02:44.058Z",
+      "updated_at": "2026-06-07T02:02:44.058Z"
+    },
+    {
+      "id": 133,
+      "employee_id": 7,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:02:44.058Z",
+      "updated_at": "2026-06-07T02:02:44.058Z"
+    },
+    {
+      "id": 134,
+      "employee_id": 7,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:02:44.058Z",
+      "updated_at": "2026-06-07T02:02:44.058Z"
+    },
+    {
+      "id": 135,
+      "employee_id": 7,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:02:44.058Z",
+      "updated_at": "2026-06-07T02:02:44.058Z"
+    },
+    {
+      "id": 136,
+      "employee_id": 7,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:02:44.058Z",
+      "updated_at": "2026-06-07T02:02:44.058Z"
+    },
+    {
+      "id": 137,
+      "employee_id": 7,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:02:44.058Z",
+      "updated_at": "2026-06-07T02:02:44.058Z"
+    },
+    {
+      "id": 138,
+      "employee_id": 7,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:02:44.058Z",
+      "updated_at": "2026-06-07T02:02:44.058Z"
+    },
+    {
+      "id": 139,
+      "employee_id": 7,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:02:44.058Z",
+      "updated_at": "2026-06-07T02:02:44.058Z"
+    },
+    {
+      "id": 140,
+      "employee_id": 7,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:02:44.058Z",
+      "updated_at": "2026-06-07T02:02:44.058Z"
+    },
+    {
+      "id": 141,
+      "employee_id": 7,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:02:44.058Z",
+      "updated_at": "2026-06-07T02:02:44.058Z"
+    },
+    {
+      "id": 142,
+      "employee_id": 7,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:02:44.058Z",
+      "updated_at": "2026-06-07T02:02:44.058Z"
+    },
+    {
+      "id": 143,
+      "employee_id": 7,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:02:44.058Z",
+      "updated_at": "2026-06-07T02:02:44.058Z"
+    },
+    {
+      "id": 144,
+      "employee_id": 7,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:02:44.058Z",
+      "updated_at": "2026-06-07T02:02:44.058Z"
+    },
+    {
+      "id": 145,
+      "employee_id": 7,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:02:44.058Z",
+      "updated_at": "2026-06-07T02:02:44.058Z"
+    },
+    {
+      "id": 146,
+      "employee_id": 7,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:02:44.058Z",
+      "updated_at": "2026-06-07T02:02:44.058Z"
+    },
+    {
+      "id": 147,
+      "employee_id": 7,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:02:44.058Z",
+      "updated_at": "2026-06-07T02:02:44.058Z"
+    },
+    {
+      "id": 148,
+      "employee_id": 8,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:01.628Z",
+      "updated_at": "2026-06-07T02:03:01.628Z"
+    },
+    {
+      "id": 149,
+      "employee_id": 8,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:01.628Z",
+      "updated_at": "2026-06-07T02:03:01.628Z"
+    },
+    {
+      "id": 150,
+      "employee_id": 8,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:01.628Z",
+      "updated_at": "2026-06-07T02:03:01.628Z"
+    },
+    {
+      "id": 151,
+      "employee_id": 8,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:01.628Z",
+      "updated_at": "2026-06-07T02:03:01.628Z"
+    },
+    {
+      "id": 152,
+      "employee_id": 8,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:01.628Z",
+      "updated_at": "2026-06-07T02:03:01.628Z"
+    },
+    {
+      "id": 153,
+      "employee_id": 8,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:01.628Z",
+      "updated_at": "2026-06-07T02:03:01.628Z"
+    },
+    {
+      "id": 154,
+      "employee_id": 8,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:01.628Z",
+      "updated_at": "2026-06-07T02:03:01.628Z"
+    },
+    {
+      "id": 155,
+      "employee_id": 8,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:01.628Z",
+      "updated_at": "2026-06-07T02:03:01.628Z"
+    },
+    {
+      "id": 156,
+      "employee_id": 8,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:01.628Z",
+      "updated_at": "2026-06-07T02:03:01.628Z"
+    },
+    {
+      "id": 157,
+      "employee_id": 8,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:01.628Z",
+      "updated_at": "2026-06-07T02:03:01.628Z"
+    },
+    {
+      "id": 158,
+      "employee_id": 8,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:01.628Z",
+      "updated_at": "2026-06-07T02:03:01.628Z"
+    },
+    {
+      "id": 159,
+      "employee_id": 8,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:01.628Z",
+      "updated_at": "2026-06-07T02:03:01.628Z"
+    },
+    {
+      "id": 160,
+      "employee_id": 8,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:01.628Z",
+      "updated_at": "2026-06-07T02:03:01.628Z"
+    },
+    {
+      "id": 161,
+      "employee_id": 8,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:01.628Z",
+      "updated_at": "2026-06-07T02:03:01.628Z"
+    },
+    {
+      "id": 162,
+      "employee_id": 8,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:01.628Z",
+      "updated_at": "2026-06-07T02:03:01.628Z"
+    },
+    {
+      "id": 163,
+      "employee_id": 8,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:01.628Z",
+      "updated_at": "2026-06-07T02:03:01.628Z"
+    },
+    {
+      "id": 164,
+      "employee_id": 8,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:01.628Z",
+      "updated_at": "2026-06-07T02:03:01.628Z"
+    },
+    {
+      "id": 165,
+      "employee_id": 8,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:01.628Z",
+      "updated_at": "2026-06-07T02:03:01.628Z"
+    },
+    {
+      "id": 166,
+      "employee_id": 8,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:01.628Z",
+      "updated_at": "2026-06-07T02:03:01.628Z"
+    },
+    {
+      "id": 167,
+      "employee_id": 8,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:01.628Z",
+      "updated_at": "2026-06-07T02:03:01.628Z"
+    },
+    {
+      "id": 168,
+      "employee_id": 8,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:01.628Z",
+      "updated_at": "2026-06-07T02:03:01.628Z"
+    },
+    {
+      "id": 169,
+      "employee_id": 9,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:17.097Z",
+      "updated_at": "2026-06-07T02:03:17.097Z"
+    },
+    {
+      "id": 170,
+      "employee_id": 9,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:17.097Z",
+      "updated_at": "2026-06-07T02:03:17.097Z"
+    },
+    {
+      "id": 171,
+      "employee_id": 9,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:17.097Z",
+      "updated_at": "2026-06-07T02:03:17.097Z"
+    },
+    {
+      "id": 172,
+      "employee_id": 9,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:17.097Z",
+      "updated_at": "2026-06-07T02:03:17.097Z"
+    },
+    {
+      "id": 173,
+      "employee_id": 9,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:17.097Z",
+      "updated_at": "2026-06-07T02:03:17.097Z"
+    },
+    {
+      "id": 174,
+      "employee_id": 9,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:17.097Z",
+      "updated_at": "2026-06-07T02:03:17.097Z"
+    },
+    {
+      "id": 175,
+      "employee_id": 9,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:17.097Z",
+      "updated_at": "2026-06-07T02:03:17.097Z"
+    },
+    {
+      "id": 176,
+      "employee_id": 9,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:17.097Z",
+      "updated_at": "2026-06-07T02:03:17.097Z"
+    },
+    {
+      "id": 177,
+      "employee_id": 9,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:17.097Z",
+      "updated_at": "2026-06-07T02:03:17.097Z"
+    },
+    {
+      "id": 178,
+      "employee_id": 9,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:17.097Z",
+      "updated_at": "2026-06-07T02:03:17.097Z"
+    },
+    {
+      "id": 179,
+      "employee_id": 9,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:17.097Z",
+      "updated_at": "2026-06-07T02:03:17.097Z"
+    },
+    {
+      "id": 180,
+      "employee_id": 9,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:17.097Z",
+      "updated_at": "2026-06-07T02:03:17.097Z"
+    },
+    {
+      "id": 181,
+      "employee_id": 9,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:17.097Z",
+      "updated_at": "2026-06-07T02:03:17.097Z"
+    },
+    {
+      "id": 182,
+      "employee_id": 9,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:17.097Z",
+      "updated_at": "2026-06-07T02:03:17.097Z"
+    },
+    {
+      "id": 183,
+      "employee_id": 9,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:17.097Z",
+      "updated_at": "2026-06-07T02:03:17.097Z"
+    },
+    {
+      "id": 184,
+      "employee_id": 9,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:17.097Z",
+      "updated_at": "2026-06-07T02:03:17.097Z"
+    },
+    {
+      "id": 185,
+      "employee_id": 9,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:17.097Z",
+      "updated_at": "2026-06-07T02:03:17.097Z"
+    },
+    {
+      "id": 186,
+      "employee_id": 9,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:17.097Z",
+      "updated_at": "2026-06-07T02:03:17.097Z"
+    },
+    {
+      "id": 187,
+      "employee_id": 9,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:17.097Z",
+      "updated_at": "2026-06-07T02:03:17.097Z"
+    },
+    {
+      "id": 188,
+      "employee_id": 9,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:17.097Z",
+      "updated_at": "2026-06-07T02:03:17.097Z"
+    },
+    {
+      "id": 189,
+      "employee_id": 9,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:17.097Z",
+      "updated_at": "2026-06-07T02:03:17.097Z"
+    },
+    {
+      "id": 190,
+      "employee_id": 10,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:50.546Z",
+      "updated_at": "2026-06-07T02:03:50.546Z"
+    },
+    {
+      "id": 191,
+      "employee_id": 10,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:50.546Z",
+      "updated_at": "2026-06-07T02:03:50.546Z"
+    },
+    {
+      "id": 192,
+      "employee_id": 10,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:50.546Z",
+      "updated_at": "2026-06-07T02:03:50.546Z"
+    },
+    {
+      "id": 193,
+      "employee_id": 10,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:50.546Z",
+      "updated_at": "2026-06-07T02:03:50.546Z"
+    },
+    {
+      "id": 194,
+      "employee_id": 10,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:50.546Z",
+      "updated_at": "2026-06-07T02:03:50.546Z"
+    },
+    {
+      "id": 195,
+      "employee_id": 10,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:50.546Z",
+      "updated_at": "2026-06-07T02:03:50.546Z"
+    },
+    {
+      "id": 196,
+      "employee_id": 10,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:50.546Z",
+      "updated_at": "2026-06-07T02:03:50.546Z"
+    },
+    {
+      "id": 197,
+      "employee_id": 10,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:50.546Z",
+      "updated_at": "2026-06-07T02:03:50.546Z"
+    },
+    {
+      "id": 198,
+      "employee_id": 10,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:50.546Z",
+      "updated_at": "2026-06-07T02:03:50.546Z"
+    },
+    {
+      "id": 199,
+      "employee_id": 10,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:50.546Z",
+      "updated_at": "2026-06-07T02:03:50.546Z"
+    },
+    {
+      "id": 200,
+      "employee_id": 10,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:50.546Z",
+      "updated_at": "2026-06-07T02:03:50.546Z"
+    },
+    {
+      "id": 201,
+      "employee_id": 10,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:50.546Z",
+      "updated_at": "2026-06-07T02:03:50.546Z"
+    },
+    {
+      "id": 202,
+      "employee_id": 10,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:50.546Z",
+      "updated_at": "2026-06-07T02:03:50.546Z"
+    },
+    {
+      "id": 203,
+      "employee_id": 10,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:50.546Z",
+      "updated_at": "2026-06-07T02:03:50.546Z"
+    },
+    {
+      "id": 204,
+      "employee_id": 10,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:50.546Z",
+      "updated_at": "2026-06-07T02:03:50.546Z"
+    },
+    {
+      "id": 205,
+      "employee_id": 10,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:50.546Z",
+      "updated_at": "2026-06-07T02:03:50.546Z"
+    },
+    {
+      "id": 206,
+      "employee_id": 10,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:50.546Z",
+      "updated_at": "2026-06-07T02:03:50.546Z"
+    },
+    {
+      "id": 207,
+      "employee_id": 10,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:50.546Z",
+      "updated_at": "2026-06-07T02:03:50.546Z"
+    },
+    {
+      "id": 208,
+      "employee_id": 10,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:50.546Z",
+      "updated_at": "2026-06-07T02:03:50.546Z"
+    },
+    {
+      "id": 209,
+      "employee_id": 10,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:50.546Z",
+      "updated_at": "2026-06-07T02:03:50.546Z"
+    },
+    {
+      "id": 210,
+      "employee_id": 10,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:03:50.546Z",
+      "updated_at": "2026-06-07T02:03:50.546Z"
+    },
+    {
+      "id": 211,
+      "employee_id": 11,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:10.878Z",
+      "updated_at": "2026-06-07T02:04:10.878Z"
+    },
+    {
+      "id": 212,
+      "employee_id": 11,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:10.878Z",
+      "updated_at": "2026-06-07T02:04:10.878Z"
+    },
+    {
+      "id": 213,
+      "employee_id": 11,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:10.878Z",
+      "updated_at": "2026-06-07T02:04:10.878Z"
+    },
+    {
+      "id": 214,
+      "employee_id": 11,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:10.878Z",
+      "updated_at": "2026-06-07T02:04:10.878Z"
+    },
+    {
+      "id": 215,
+      "employee_id": 11,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:10.878Z",
+      "updated_at": "2026-06-07T02:04:10.878Z"
+    },
+    {
+      "id": 216,
+      "employee_id": 11,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:10.878Z",
+      "updated_at": "2026-06-07T02:04:10.878Z"
+    },
+    {
+      "id": 217,
+      "employee_id": 11,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:10.878Z",
+      "updated_at": "2026-06-07T02:04:10.878Z"
+    },
+    {
+      "id": 218,
+      "employee_id": 11,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:10.878Z",
+      "updated_at": "2026-06-07T02:04:10.878Z"
+    },
+    {
+      "id": 219,
+      "employee_id": 11,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:10.878Z",
+      "updated_at": "2026-06-07T02:04:10.878Z"
+    },
+    {
+      "id": 220,
+      "employee_id": 11,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:10.878Z",
+      "updated_at": "2026-06-07T02:04:10.878Z"
+    },
+    {
+      "id": 221,
+      "employee_id": 11,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:10.878Z",
+      "updated_at": "2026-06-07T02:04:10.878Z"
+    },
+    {
+      "id": 222,
+      "employee_id": 11,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:10.878Z",
+      "updated_at": "2026-06-07T02:04:10.878Z"
+    },
+    {
+      "id": 223,
+      "employee_id": 11,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:10.878Z",
+      "updated_at": "2026-06-07T02:04:10.878Z"
+    },
+    {
+      "id": 224,
+      "employee_id": 11,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:10.878Z",
+      "updated_at": "2026-06-07T02:04:10.878Z"
+    },
+    {
+      "id": 225,
+      "employee_id": 11,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:10.878Z",
+      "updated_at": "2026-06-07T02:04:10.878Z"
+    },
+    {
+      "id": 226,
+      "employee_id": 11,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:10.878Z",
+      "updated_at": "2026-06-07T02:04:10.878Z"
+    },
+    {
+      "id": 227,
+      "employee_id": 11,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:10.878Z",
+      "updated_at": "2026-06-07T02:04:10.878Z"
+    },
+    {
+      "id": 228,
+      "employee_id": 11,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:10.878Z",
+      "updated_at": "2026-06-07T02:04:10.878Z"
+    },
+    {
+      "id": 229,
+      "employee_id": 11,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:10.878Z",
+      "updated_at": "2026-06-07T02:04:10.878Z"
+    },
+    {
+      "id": 230,
+      "employee_id": 11,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:10.878Z",
+      "updated_at": "2026-06-07T02:04:10.878Z"
+    },
+    {
+      "id": 231,
+      "employee_id": 11,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:10.878Z",
+      "updated_at": "2026-06-07T02:04:10.878Z"
+    },
+    {
+      "id": 232,
+      "employee_id": 12,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:32.113Z",
+      "updated_at": "2026-06-07T02:04:32.113Z"
+    },
+    {
+      "id": 233,
+      "employee_id": 12,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:32.113Z",
+      "updated_at": "2026-06-07T02:04:32.113Z"
+    },
+    {
+      "id": 234,
+      "employee_id": 12,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:32.113Z",
+      "updated_at": "2026-06-07T02:04:32.113Z"
+    },
+    {
+      "id": 235,
+      "employee_id": 12,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:32.113Z",
+      "updated_at": "2026-06-07T02:04:32.113Z"
+    },
+    {
+      "id": 236,
+      "employee_id": 12,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:32.113Z",
+      "updated_at": "2026-06-07T02:04:32.113Z"
+    },
+    {
+      "id": 237,
+      "employee_id": 12,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:32.113Z",
+      "updated_at": "2026-06-07T02:04:32.113Z"
+    },
+    {
+      "id": 238,
+      "employee_id": 12,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:32.113Z",
+      "updated_at": "2026-06-07T02:04:32.113Z"
+    },
+    {
+      "id": 239,
+      "employee_id": 12,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:32.113Z",
+      "updated_at": "2026-06-07T02:04:32.113Z"
+    },
+    {
+      "id": 240,
+      "employee_id": 12,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:32.113Z",
+      "updated_at": "2026-06-07T02:04:32.113Z"
+    },
+    {
+      "id": 241,
+      "employee_id": 12,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:32.113Z",
+      "updated_at": "2026-06-07T02:04:32.113Z"
+    },
+    {
+      "id": 242,
+      "employee_id": 12,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:32.113Z",
+      "updated_at": "2026-06-07T02:04:32.113Z"
+    },
+    {
+      "id": 243,
+      "employee_id": 12,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:32.113Z",
+      "updated_at": "2026-06-07T02:04:32.113Z"
+    },
+    {
+      "id": 244,
+      "employee_id": 12,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:32.113Z",
+      "updated_at": "2026-06-07T02:04:32.113Z"
+    },
+    {
+      "id": 245,
+      "employee_id": 12,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:32.113Z",
+      "updated_at": "2026-06-07T02:04:32.113Z"
+    },
+    {
+      "id": 246,
+      "employee_id": 12,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:32.113Z",
+      "updated_at": "2026-06-07T02:04:32.113Z"
+    },
+    {
+      "id": 247,
+      "employee_id": 12,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:32.113Z",
+      "updated_at": "2026-06-07T02:04:32.113Z"
+    },
+    {
+      "id": 248,
+      "employee_id": 12,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:32.113Z",
+      "updated_at": "2026-06-07T02:04:32.113Z"
+    },
+    {
+      "id": 249,
+      "employee_id": 12,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:32.113Z",
+      "updated_at": "2026-06-07T02:04:32.113Z"
+    },
+    {
+      "id": 250,
+      "employee_id": 12,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:32.113Z",
+      "updated_at": "2026-06-07T02:04:32.113Z"
+    },
+    {
+      "id": 251,
+      "employee_id": 12,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:32.113Z",
+      "updated_at": "2026-06-07T02:04:32.113Z"
+    },
+    {
+      "id": 252,
+      "employee_id": 12,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:32.113Z",
+      "updated_at": "2026-06-07T02:04:32.113Z"
+    },
+    {
+      "id": 253,
+      "employee_id": 13,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:51.210Z",
+      "updated_at": "2026-06-07T02:04:51.210Z"
+    },
+    {
+      "id": 254,
+      "employee_id": 13,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:51.210Z",
+      "updated_at": "2026-06-07T02:04:51.210Z"
+    },
+    {
+      "id": 255,
+      "employee_id": 13,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:51.210Z",
+      "updated_at": "2026-06-07T02:04:51.210Z"
+    },
+    {
+      "id": 256,
+      "employee_id": 13,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:51.210Z",
+      "updated_at": "2026-06-07T02:04:51.210Z"
+    },
+    {
+      "id": 257,
+      "employee_id": 13,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:51.210Z",
+      "updated_at": "2026-06-07T02:04:51.210Z"
+    },
+    {
+      "id": 258,
+      "employee_id": 13,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:51.210Z",
+      "updated_at": "2026-06-07T02:04:51.210Z"
+    },
+    {
+      "id": 259,
+      "employee_id": 13,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:51.210Z",
+      "updated_at": "2026-06-07T02:04:51.210Z"
+    },
+    {
+      "id": 260,
+      "employee_id": 13,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:51.210Z",
+      "updated_at": "2026-06-07T02:04:51.210Z"
+    },
+    {
+      "id": 261,
+      "employee_id": 13,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:51.210Z",
+      "updated_at": "2026-06-07T02:04:51.210Z"
+    },
+    {
+      "id": 262,
+      "employee_id": 13,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:51.210Z",
+      "updated_at": "2026-06-07T02:04:51.210Z"
+    },
+    {
+      "id": 263,
+      "employee_id": 13,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:51.210Z",
+      "updated_at": "2026-06-07T02:04:51.210Z"
+    },
+    {
+      "id": 264,
+      "employee_id": 13,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:51.210Z",
+      "updated_at": "2026-06-07T02:04:51.210Z"
+    },
+    {
+      "id": 265,
+      "employee_id": 13,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:51.210Z",
+      "updated_at": "2026-06-07T02:04:51.210Z"
+    },
+    {
+      "id": 266,
+      "employee_id": 13,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:51.210Z",
+      "updated_at": "2026-06-07T02:04:51.210Z"
+    },
+    {
+      "id": 267,
+      "employee_id": 13,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:51.210Z",
+      "updated_at": "2026-06-07T02:04:51.210Z"
+    },
+    {
+      "id": 268,
+      "employee_id": 13,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:51.210Z",
+      "updated_at": "2026-06-07T02:04:51.210Z"
+    },
+    {
+      "id": 269,
+      "employee_id": 13,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:51.210Z",
+      "updated_at": "2026-06-07T02:04:51.210Z"
+    },
+    {
+      "id": 270,
+      "employee_id": 13,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:51.210Z",
+      "updated_at": "2026-06-07T02:04:51.210Z"
+    },
+    {
+      "id": 271,
+      "employee_id": 13,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:51.210Z",
+      "updated_at": "2026-06-07T02:04:51.210Z"
+    },
+    {
+      "id": 272,
+      "employee_id": 13,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:51.210Z",
+      "updated_at": "2026-06-07T02:04:51.210Z"
+    },
+    {
+      "id": 273,
+      "employee_id": 13,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:04:51.210Z",
+      "updated_at": "2026-06-07T02:04:51.210Z"
+    },
+    {
+      "id": 274,
+      "employee_id": 14,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:12.786Z",
+      "updated_at": "2026-06-07T02:05:12.786Z"
+    },
+    {
+      "id": 275,
+      "employee_id": 14,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:12.786Z",
+      "updated_at": "2026-06-07T02:05:12.786Z"
+    },
+    {
+      "id": 276,
+      "employee_id": 14,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:12.786Z",
+      "updated_at": "2026-06-07T02:05:12.786Z"
+    },
+    {
+      "id": 277,
+      "employee_id": 14,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:12.786Z",
+      "updated_at": "2026-06-07T02:05:12.786Z"
+    },
+    {
+      "id": 278,
+      "employee_id": 14,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:12.786Z",
+      "updated_at": "2026-06-07T02:05:12.786Z"
+    },
+    {
+      "id": 279,
+      "employee_id": 14,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:12.786Z",
+      "updated_at": "2026-06-07T02:05:12.786Z"
+    },
+    {
+      "id": 280,
+      "employee_id": 14,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:12.786Z",
+      "updated_at": "2026-06-07T02:05:12.786Z"
+    },
+    {
+      "id": 281,
+      "employee_id": 14,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:12.786Z",
+      "updated_at": "2026-06-07T02:05:12.786Z"
+    },
+    {
+      "id": 282,
+      "employee_id": 14,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:12.786Z",
+      "updated_at": "2026-06-07T02:05:12.786Z"
+    },
+    {
+      "id": 283,
+      "employee_id": 14,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:12.786Z",
+      "updated_at": "2026-06-07T02:05:12.786Z"
+    },
+    {
+      "id": 284,
+      "employee_id": 14,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:12.786Z",
+      "updated_at": "2026-06-07T02:05:12.786Z"
+    },
+    {
+      "id": 285,
+      "employee_id": 14,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:12.786Z",
+      "updated_at": "2026-06-07T02:05:12.786Z"
+    },
+    {
+      "id": 286,
+      "employee_id": 14,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:12.786Z",
+      "updated_at": "2026-06-07T02:05:12.786Z"
+    },
+    {
+      "id": 287,
+      "employee_id": 14,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:12.786Z",
+      "updated_at": "2026-06-07T02:05:12.786Z"
+    },
+    {
+      "id": 288,
+      "employee_id": 14,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:12.786Z",
+      "updated_at": "2026-06-07T02:05:12.786Z"
+    },
+    {
+      "id": 289,
+      "employee_id": 14,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:12.786Z",
+      "updated_at": "2026-06-07T02:05:12.786Z"
+    },
+    {
+      "id": 290,
+      "employee_id": 14,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:12.786Z",
+      "updated_at": "2026-06-07T02:05:12.786Z"
+    },
+    {
+      "id": 291,
+      "employee_id": 14,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:12.786Z",
+      "updated_at": "2026-06-07T02:05:12.786Z"
+    },
+    {
+      "id": 292,
+      "employee_id": 14,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:12.786Z",
+      "updated_at": "2026-06-07T02:05:12.786Z"
+    },
+    {
+      "id": 293,
+      "employee_id": 14,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:12.786Z",
+      "updated_at": "2026-06-07T02:05:12.786Z"
+    },
+    {
+      "id": 294,
+      "employee_id": 14,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:12.786Z",
+      "updated_at": "2026-06-07T02:05:12.786Z"
+    },
+    {
+      "id": 295,
+      "employee_id": 15,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:33.381Z",
+      "updated_at": "2026-06-07T02:05:33.381Z"
+    },
+    {
+      "id": 296,
+      "employee_id": 15,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:33.381Z",
+      "updated_at": "2026-06-07T02:05:33.381Z"
+    },
+    {
+      "id": 297,
+      "employee_id": 15,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:33.381Z",
+      "updated_at": "2026-06-07T02:05:33.381Z"
+    },
+    {
+      "id": 298,
+      "employee_id": 15,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:33.381Z",
+      "updated_at": "2026-06-07T02:05:33.381Z"
+    },
+    {
+      "id": 299,
+      "employee_id": 15,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:33.381Z",
+      "updated_at": "2026-06-07T02:05:33.381Z"
+    },
+    {
+      "id": 300,
+      "employee_id": 15,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:33.381Z",
+      "updated_at": "2026-06-07T02:05:33.381Z"
+    },
+    {
+      "id": 301,
+      "employee_id": 15,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:33.381Z",
+      "updated_at": "2026-06-07T02:05:33.381Z"
+    },
+    {
+      "id": 302,
+      "employee_id": 15,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:33.381Z",
+      "updated_at": "2026-06-07T02:05:33.381Z"
+    },
+    {
+      "id": 303,
+      "employee_id": 15,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:33.381Z",
+      "updated_at": "2026-06-07T02:05:33.381Z"
+    },
+    {
+      "id": 304,
+      "employee_id": 15,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:33.381Z",
+      "updated_at": "2026-06-07T02:05:33.381Z"
+    },
+    {
+      "id": 305,
+      "employee_id": 15,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:33.381Z",
+      "updated_at": "2026-06-07T02:05:33.381Z"
+    },
+    {
+      "id": 306,
+      "employee_id": 15,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:33.381Z",
+      "updated_at": "2026-06-07T02:05:33.381Z"
+    },
+    {
+      "id": 307,
+      "employee_id": 15,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:33.381Z",
+      "updated_at": "2026-06-07T02:05:33.381Z"
+    },
+    {
+      "id": 308,
+      "employee_id": 15,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:33.381Z",
+      "updated_at": "2026-06-07T02:05:33.381Z"
+    },
+    {
+      "id": 309,
+      "employee_id": 15,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:33.381Z",
+      "updated_at": "2026-06-07T02:05:33.381Z"
+    },
+    {
+      "id": 310,
+      "employee_id": 15,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:33.381Z",
+      "updated_at": "2026-06-07T02:05:33.381Z"
+    },
+    {
+      "id": 311,
+      "employee_id": 15,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:33.381Z",
+      "updated_at": "2026-06-07T02:05:33.381Z"
+    },
+    {
+      "id": 312,
+      "employee_id": 15,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:33.381Z",
+      "updated_at": "2026-06-07T02:05:33.381Z"
+    },
+    {
+      "id": 313,
+      "employee_id": 15,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:33.381Z",
+      "updated_at": "2026-06-07T02:05:33.381Z"
+    },
+    {
+      "id": 314,
+      "employee_id": 15,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:33.381Z",
+      "updated_at": "2026-06-07T02:05:33.381Z"
+    },
+    {
+      "id": 315,
+      "employee_id": 15,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:33.381Z",
+      "updated_at": "2026-06-07T02:05:33.381Z"
+    },
+    {
+      "id": 316,
+      "employee_id": 16,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:48.745Z",
+      "updated_at": "2026-06-07T02:05:48.745Z"
+    },
+    {
+      "id": 317,
+      "employee_id": 16,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:48.745Z",
+      "updated_at": "2026-06-07T02:05:48.745Z"
+    },
+    {
+      "id": 318,
+      "employee_id": 16,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:48.745Z",
+      "updated_at": "2026-06-07T02:05:48.745Z"
+    },
+    {
+      "id": 319,
+      "employee_id": 16,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:48.745Z",
+      "updated_at": "2026-06-07T02:05:48.745Z"
+    },
+    {
+      "id": 320,
+      "employee_id": 16,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:48.745Z",
+      "updated_at": "2026-06-07T02:05:48.745Z"
+    },
+    {
+      "id": 321,
+      "employee_id": 16,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:48.745Z",
+      "updated_at": "2026-06-07T02:05:48.745Z"
+    },
+    {
+      "id": 322,
+      "employee_id": 16,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:48.745Z",
+      "updated_at": "2026-06-07T02:05:48.745Z"
+    },
+    {
+      "id": 323,
+      "employee_id": 16,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:48.745Z",
+      "updated_at": "2026-06-07T02:05:48.745Z"
+    },
+    {
+      "id": 324,
+      "employee_id": 16,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:48.745Z",
+      "updated_at": "2026-06-07T02:05:48.745Z"
+    },
+    {
+      "id": 325,
+      "employee_id": 16,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:48.745Z",
+      "updated_at": "2026-06-07T02:05:48.745Z"
+    },
+    {
+      "id": 326,
+      "employee_id": 16,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:48.745Z",
+      "updated_at": "2026-06-07T02:05:48.745Z"
+    },
+    {
+      "id": 327,
+      "employee_id": 16,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:48.745Z",
+      "updated_at": "2026-06-07T02:05:48.745Z"
+    },
+    {
+      "id": 328,
+      "employee_id": 16,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:48.745Z",
+      "updated_at": "2026-06-07T02:05:48.745Z"
+    },
+    {
+      "id": 329,
+      "employee_id": 16,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:48.745Z",
+      "updated_at": "2026-06-07T02:05:48.745Z"
+    },
+    {
+      "id": 330,
+      "employee_id": 16,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:48.745Z",
+      "updated_at": "2026-06-07T02:05:48.745Z"
+    },
+    {
+      "id": 331,
+      "employee_id": 16,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:48.745Z",
+      "updated_at": "2026-06-07T02:05:48.745Z"
+    },
+    {
+      "id": 332,
+      "employee_id": 16,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:48.745Z",
+      "updated_at": "2026-06-07T02:05:48.745Z"
+    },
+    {
+      "id": 333,
+      "employee_id": 16,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:48.745Z",
+      "updated_at": "2026-06-07T02:05:48.745Z"
+    },
+    {
+      "id": 334,
+      "employee_id": 16,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:48.745Z",
+      "updated_at": "2026-06-07T02:05:48.745Z"
+    },
+    {
+      "id": 335,
+      "employee_id": 16,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:48.745Z",
+      "updated_at": "2026-06-07T02:05:48.745Z"
+    },
+    {
+      "id": 336,
+      "employee_id": 16,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:05:48.745Z",
+      "updated_at": "2026-06-07T02:05:48.745Z"
+    },
+    {
+      "id": 337,
+      "employee_id": 17,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:06:17.867Z",
+      "updated_at": "2026-06-07T02:06:17.867Z"
+    },
+    {
+      "id": 338,
+      "employee_id": 17,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:06:17.867Z",
+      "updated_at": "2026-06-07T02:06:17.867Z"
+    },
+    {
+      "id": 339,
+      "employee_id": 17,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:06:17.867Z",
+      "updated_at": "2026-06-07T02:06:17.867Z"
+    },
+    {
+      "id": 340,
+      "employee_id": 17,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:06:17.867Z",
+      "updated_at": "2026-06-07T02:06:17.867Z"
+    },
+    {
+      "id": 341,
+      "employee_id": 17,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:06:17.867Z",
+      "updated_at": "2026-06-07T02:06:17.867Z"
+    },
+    {
+      "id": 342,
+      "employee_id": 17,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:06:17.867Z",
+      "updated_at": "2026-06-07T02:06:17.867Z"
+    },
+    {
+      "id": 343,
+      "employee_id": 17,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:06:17.867Z",
+      "updated_at": "2026-06-07T02:06:17.867Z"
+    },
+    {
+      "id": 344,
+      "employee_id": 17,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:06:17.867Z",
+      "updated_at": "2026-06-07T02:06:17.867Z"
+    },
+    {
+      "id": 345,
+      "employee_id": 17,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-16",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:06:17.867Z",
+      "updated_at": "2026-06-07T02:06:17.867Z"
+    },
+    {
+      "id": 346,
+      "employee_id": 17,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:06:17.867Z",
+      "updated_at": "2026-06-07T02:06:17.867Z"
+    },
+    {
+      "id": 347,
+      "employee_id": 17,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:06:17.867Z",
+      "updated_at": "2026-06-07T02:06:17.867Z"
+    },
+    {
+      "id": 348,
+      "employee_id": 17,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-17",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:06:17.867Z",
+      "updated_at": "2026-06-07T02:06:17.867Z"
+    },
+    {
+      "id": 349,
+      "employee_id": 17,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:06:17.867Z",
+      "updated_at": "2026-06-07T02:06:17.867Z"
+    },
+    {
+      "id": 350,
+      "employee_id": 17,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:06:17.867Z",
+      "updated_at": "2026-06-07T02:06:17.867Z"
+    },
+    {
+      "id": 351,
+      "employee_id": 17,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-18",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:06:17.867Z",
+      "updated_at": "2026-06-07T02:06:17.867Z"
+    },
+    {
+      "id": 352,
+      "employee_id": 17,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:06:17.867Z",
+      "updated_at": "2026-06-07T02:06:17.867Z"
+    },
+    {
+      "id": 353,
+      "employee_id": 17,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:06:17.867Z",
+      "updated_at": "2026-06-07T02:06:17.867Z"
+    },
+    {
+      "id": 354,
+      "employee_id": 17,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-19",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:06:17.867Z",
+      "updated_at": "2026-06-07T02:06:17.867Z"
+    },
+    {
+      "id": 355,
+      "employee_id": 17,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "morning",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:06:17.867Z",
+      "updated_at": "2026-06-07T02:06:17.867Z"
+    },
+    {
+      "id": 356,
+      "employee_id": 17,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "noon",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:06:17.867Z",
+      "updated_at": "2026-06-07T02:06:17.867Z"
+    },
+    {
+      "id": 357,
+      "employee_id": 17,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-20",
+      "time_frame": "night",
+      "preference_status": "can",
+      "created_at": "2026-06-07T02:06:17.867Z",
+      "updated_at": "2026-06-07T02:06:17.867Z"
+    }
+  ],
+  "shift_assignments": [
+    {
+      "id": 1,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "morning",
+      "job_type": "sag",
+      "assigned_employee_id": 6,
+      "external_worker_name": null,
+      "override_cannot": 0,
+      "assigned_by_user_id": 1,
+      "created_at": "2026-06-07T02:07:23.476Z",
+      "updated_at": "2026-06-07T02:07:23.476Z"
+    },
+    {
+      "id": 2,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-15",
+      "time_frame": "morning",
+      "job_type": "sag",
+      "assigned_employee_id": 16,
+      "external_worker_name": null,
+      "override_cannot": 0,
+      "assigned_by_user_id": 1,
+      "created_at": "2026-06-07T02:07:28.908Z",
+      "updated_at": "2026-06-07T02:07:28.908Z"
+    },
+    {
+      "id": 3,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "morning",
+      "job_type": "siyur",
+      "assigned_employee_id": 7,
+      "external_worker_name": null,
+      "override_cannot": 0,
+      "assigned_by_user_id": 1,
+      "created_at": "2026-06-07T02:07:32.073Z",
+      "updated_at": "2026-06-07T02:07:32.073Z"
+    },
+    {
+      "id": 4,
+      "schedule_week_id": 1,
+      "shift_date": "2026-06-14",
+      "time_frame": "noon",
+      "job_type": "sag",
+      "assigned_employee_id": 6,
+      "external_worker_name": null,
+      "override_cannot": 0,
+      "assigned_by_user_id": 1,
+      "created_at": "2026-06-07T02:07:39.293Z",
+      "updated_at": "2026-06-07T02:07:39.293Z"
+    }
+  ]
+}
