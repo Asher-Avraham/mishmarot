@@ -41,8 +41,52 @@ export default function AdminDashboard({ token }) {
     loadScheduleData();
   }, [token]);
 
-  // Handle shift assignment save
+  // Handle shift assignment save (optimistic)
   const handleAssignSave = async (payload) => {
+    const prevAssignments = assignments;
+    const prevEmployees = employees;
+
+    const isClearing = !payload.assigned_employee_id && !payload.external_worker_name;
+
+    // Build optimistic assignment
+    const optimistic = isClearing ? null : {
+      id: `opt-${Date.now()}`,
+      shift_date: payload.shift_date,
+      time_frame: payload.time_frame,
+      job_type: payload.job_type,
+      assigned_employee_id: payload.assigned_employee_id,
+      external_worker_name: payload.external_worker_name,
+      override_cannot: !!payload.override_cannot,
+    };
+
+    // Optimistically update assignments (replace if same slot exists)
+    setAssignments(prev => {
+      const filtered = prev.filter(
+        a => !(a.shift_date === payload.shift_date && a.time_frame === payload.time_frame && a.job_type === payload.job_type)
+      );
+      return optimistic ? [...filtered, optimistic] : filtered;
+    });
+
+    // Optimistically update shift counts
+    setEmployees(prev => {
+      const updated = [...prev];
+      const oldAssign = prevAssignments.find(
+        a => a.shift_date === payload.shift_date && a.time_frame === payload.time_frame && a.job_type === payload.job_type
+      );
+      if (oldAssign?.assigned_employee_id) {
+        const i = updated.findIndex(e => e.id === oldAssign.assigned_employee_id);
+        if (i !== -1) updated[i] = { ...updated[i], shift_count: Math.max(0, (updated[i].shift_count || 0) - 1) };
+      }
+      if (payload.assigned_employee_id) {
+        const i = updated.findIndex(e => e.id === payload.assigned_employee_id);
+        if (i !== -1) updated[i] = { ...updated[i], shift_count: (updated[i].shift_count || 0) + 1 };
+      }
+      return updated;
+    });
+
+    // Close modal immediately
+    setSelectedShift(null);
+
     try {
       const response = await fetch('/api/admin/shifts/assign', {
         method: 'PUT',
@@ -53,23 +97,22 @@ export default function AdminDashboard({ token }) {
         body: JSON.stringify(payload)
       });
 
-      const data = await response.json();
-
       if (!response.ok) {
+        const data = await response.json();
         if (data.error === 'REQUIRES_OVERRIDE') {
-          // Pass back conflict details to modal for override confirmation
-          throw new Error('REQUIRES_OVERRIDE');
+          setAssignments(prevAssignments);
+          setEmployees(prevEmployees);
+          alert('נדרש אישור חריג לשיבוץ עובד זה.');
+          return;
         }
         throw new Error(data.error || 'שגיאה בשיבוץ העובד.');
       }
 
-      // Close modal and refresh board
-      setSelectedShift(null);
+      // Refresh in background for accurate server data
       loadScheduleData();
     } catch (err) {
-      if (err.message === 'REQUIRES_OVERRIDE') {
-        throw err; // Forward to modal
-      }
+      setAssignments(prevAssignments);
+      setEmployees(prevEmployees);
       alert(err.message);
     }
   };
