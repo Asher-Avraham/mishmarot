@@ -4,6 +4,7 @@ import jwt from 'jsonwebtoken';
 import bcrypt from 'bcryptjs';
 import dotenv from 'dotenv';
 import {
+  checkDbConnection,
   initDatabase,
   getUpcomingWeekDays,
   loginUser,
@@ -348,6 +349,12 @@ app.delete('/api/admin/shifts/all', authenticateToken, async (req, res) => {
     console.error(err);
     res.status(500).json({ error: 'שגיאת שרת פנימית.' });
   }
+});
+
+// 0. Health Check
+app.get('/api/health', async (_req, res) => {
+  const result = await checkDbConnection();
+  res.status(result.connected ? 200 : 503).json(result);
 });
 
 app.use('/api/*', (req, res) => {

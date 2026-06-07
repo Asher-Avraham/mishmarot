@@ -3,6 +3,7 @@ import Login from './components/Login';
 import AdminDashboard from './components/AdminDashboard';
 import EmployeeDashboard from './components/EmployeeDashboard';
 import AdminPanel from './components/AdminPanel';
+import DbStatus from './components/DbStatus';
 
 function App() {
   const [token, setToken] = useState(localStorage.getItem('mishmarot_token') || '');
@@ -127,6 +128,8 @@ function App() {
           </button>
         </div>
       )}
+
+      <DbStatus />
 
       {user ? (
         <>

@@ -13,6 +13,19 @@ if (!supabaseUrl || !supabaseKey) {
 
 export const supabase = createClient(supabaseUrl, supabaseKey);
 
+// --- HEALTH CHECK ---
+export async function checkDbConnection() {
+  try {
+    const { error } = await supabase
+      .from('users')
+      .select('id', { count: 'exact', head: true })
+      .limit(1);
+    return { connected: !error, error: error?.message || null };
+  } catch (err) {
+    return { connected: false, error: err.message };
+  }
+}
+
 // --- SEEDING & INIT ---
 export async function initDatabase() {
   // Supabase tables should be created via SQL in the Supabase Dashboard.
