@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import ShiftModal from './ShiftModal';
+import PreferencesModal from './PreferencesModal';
 
 export default function AdminDashboard({ token }) {
   // Scheduling state
@@ -11,6 +12,7 @@ export default function AdminDashboard({ token }) {
   const [preferences, setPreferences] = useState([]);
   const [assignments, setAssignments] = useState([]);
   const [selectedShift, setSelectedShift] = useState(null);
+  const [selectedEmployee, setSelectedEmployee] = useState(null);
   const [showDeleteAllConfirm, setShowDeleteAllConfirm] = useState(false);
 
   // Load schedule board data
@@ -157,7 +159,7 @@ export default function AdminDashboard({ token }) {
         <h3 className="card-title">עומס עבודה שבועי (מספר משמרות לכל עובד)</h3>
         <div className="employee-pills">
           {employees.map(emp => (
-            <div key={emp.id} className="employee-pill">
+            <div key={emp.id} className="employee-pill" onClick={() => setSelectedEmployee(emp)}>
               <span className="employee-avatar">{emp.full_name.charAt(0)}</span>
               <span>{emp.full_name}</span>
               <span className={`employee-count ${emp.shift_count > 0 ? 'active-shifts' : ''}`}>
@@ -270,6 +272,16 @@ export default function AdminDashboard({ token }) {
             </div>
           </div>
         </div>
+      )}
+
+      {/* Preferences Modal */}
+      {selectedEmployee && (
+        <PreferencesModal
+          employee={selectedEmployee}
+          days={days}
+          preferences={preferences}
+          onClose={() => setSelectedEmployee(null)}
+        />
       )}
 
       {/* Shift Assignment Modal */}
