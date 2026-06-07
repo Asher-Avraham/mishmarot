@@ -243,17 +243,15 @@ export default function AdminDashboard({ token }) {
             </div>
           ))}
         </div>
-      </div>
-
-      {/* Delete All Button */}
-      <div style={{ display: 'flex', justifyContent: 'center', marginTop: '32px', marginBottom: '40px' }}>
-        <button 
-          className="btn btn-danger" 
-          onClick={() => setShowDeleteAllConfirm(true)}
-          style={{ padding: '10px 24px' }}
-        >
-          מחק הכל
-        </button>
+        <div className="schedule-footer">
+          <button 
+            className="btn btn-danger" 
+            onClick={() => setShowDeleteAllConfirm(true)}
+            style={{ padding: '10px 24px' }}
+          >
+            מחק הכל
+          </button>
+        </div>
       </div>
 
       {/* Delete All Confirmation Modal */}

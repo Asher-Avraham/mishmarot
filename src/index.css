@@ -397,6 +397,9 @@ button, input, select, textarea {
 
 .main-content {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
   padding: 32px 24px;
   max-width: 1440px;
   width: 100%;
@@ -500,8 +503,11 @@ button, input, select, textarea {
 
 /* Scheduler Grid Layout */
 .schedule-container {
-  overflow-x: auto;
-  margin-bottom: 32px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin-bottom: 0;
   background: var(--bg-card);
   border: 1px solid var(--border-color);
   border-radius: 20px;
@@ -510,21 +516,25 @@ button, input, select, textarea {
 }
 
 .schedule-grid {
+  flex: 1;
   display: grid;
   grid-template-columns: 120px repeat(7, 1fr);
+  grid-template-rows: 1fr;
   gap: 12px;
   min-width: 900px;
+  overflow: hidden;
 }
 
 .shift-type-column {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  margin-top: 62px; /* Offset for day headers: 50px height + 12px gap */
+  padding-top: 62px; /* Offset for day headers: 50px height + 12px gap */
 }
 
 .shift-type-label {
-  height: 60px; /* Match shift-card min-height approx */
+  flex: 1;
+  min-height: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -566,9 +576,11 @@ button, input, select, textarea {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  min-height: 0;
 }
 
 .day-header {
+  flex-shrink: 0;
   background: var(--bg-tertiary);
   border: 1px solid var(--border-color);
   padding: 8px;
@@ -593,11 +605,12 @@ button, input, select, textarea {
 }
 
 .shift-card {
+  flex: 1;
+  min-height: 0;
   background: var(--bg-primary);
   border: 1px solid var(--border-color);
   border-radius: 12px;
   padding: 8px;
-  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -687,6 +700,13 @@ button, input, select, textarea {
   border: 1px solid rgba(139, 92, 246, 0.3);
   color: var(--secondary);
   font-style: italic;
+}
+
+.schedule-footer {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
 }
 
 .shift-override-badge {
