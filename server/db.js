@@ -6,7 +6,10 @@ import bcrypt from 'bcryptjs';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const dbPath = path.resolve(__dirname, 'mishmarot_db.json');
+// Check if running on Render and use persistent disk path if so
+const dbPath = process.env.RENDER
+  ? '/server/data/mishmarot_db.json'
+  : path.resolve(__dirname, 'mishmarot_db.json');
 
 // Memory storage
 let database = {
