@@ -835,7 +835,7 @@ button, input, select, textarea {
 .assignee-option.status-prefer {
   background: var(--status-prefer-bg);
   border-color: var(--status-prefer-border);
-  color: #a7f3d0;
+  color: var(--text-primary);
 }
 .assignee-option.status-prefer:hover {
   background: rgba(16, 185, 129, 0.25);
@@ -852,7 +852,7 @@ button, input, select, textarea {
 .assignee-option.status-avoid {
   background: var(--status-avoid-bg);
   border-color: var(--status-avoid-border);
-  color: #fef3c7;
+  color: var(--text-primary);
 }
 .assignee-option.status-avoid:hover {
   background: rgba(245, 158, 11, 0.25);
@@ -869,7 +869,7 @@ button, input, select, textarea {
 .assignee-option.status-cannot {
   background: var(--status-cannot-bg);
   border-color: var(--status-cannot-border);
-  color: #fee2e2;
+  color: var(--text-primary);
 }
 .assignee-option.status-cannot:hover {
   background: rgba(239, 68, 68, 0.25);
