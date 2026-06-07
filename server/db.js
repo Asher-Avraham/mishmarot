@@ -118,34 +118,54 @@ export function getUpcomingWeekDays() {
 export async function loginUser(username) {
   const { data: user, error } = await supabase
     .from('users')
-    .select('*, employees(full_name)')
+    .select('*')
     .eq('username', username)
     .eq('is_active', true)
     .maybeSingle();
 
   if (error || !user) return null;
-  
+
+  let fullName = 'מנהל מערכת';
+  if (user.employee_id) {
+    const { data: emp } = await supabase
+      .from('employees')
+      .select('full_name')
+      .eq('id', user.employee_id)
+      .maybeSingle();
+    if (emp) fullName = emp.full_name;
+  }
+
   return {
     ...user,
-    full_name: user.employees ? user.employees.full_name : 'מנהל מערכת'
+    full_name: fullName
   };
 }
 
 export async function getUserById(id) {
   const { data: user, error } = await supabase
     .from('users')
-    .select('*, employees(full_name)')
+    .select('*')
     .eq('id', id)
     .maybeSingle();
 
   if (error || !user) return null;
-  
+
+  let fullName = 'מנהל מערכת';
+  if (user.employee_id) {
+    const { data: emp } = await supabase
+      .from('employees')
+      .select('full_name')
+      .eq('id', user.employee_id)
+      .maybeSingle();
+    if (emp) fullName = emp.full_name;
+  }
+
   return {
     id: user.id,
     username: user.username,
     role: user.role,
     employee_id: user.employee_id,
-    full_name: user.employees ? user.employees.full_name : 'מנהל מערכת'
+    full_name: fullName
   };
 }
 
@@ -213,10 +233,18 @@ export async function updateEmployeePreferences(employeeId, weekId, prefsList) {
 export async function getAdminEmployeesList(weekId) {
   const { data: employees, error } = await supabase
     .from('employees')
-    .select('*, users(username)')
+    .select('*')
     .eq('is_active', true);
 
   if (error) throw error;
+
+  // Get usernames for each employee
+  const { data: users, error: usersError } = await supabase
+    .from('users')
+    .select('employee_id, username')
+    .eq('is_active', true);
+
+  if (usersError) throw usersError;
 
   // Get shift counts for the week
   const { data: assignments, error: assError } = await supabase
@@ -231,7 +259,7 @@ export async function getAdminEmployeesList(weekId) {
     full_name: e.full_name,
     phone: e.phone,
     is_active: e.is_active,
-    username: e.users?.[0]?.username || '',
+    username: users.find(u => u.employee_id === e.id)?.username || '',
     shift_count: assignments.filter(a => a.assigned_employee_id === e.id).length
   })).sort((a, b) => a.full_name.localeCompare(b.full_name, 'he'));
 }

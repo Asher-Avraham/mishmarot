@@ -357,13 +357,13 @@ app.use('/api/*', (req, res) => {
 // Export for Vercel
 export default app;
 
-// Only listen if not in a serverless environment
-if (process.env.NODE_ENV !== 'production') {
-  initDatabase().then(() => {
+// Initialize database in all environments
+initDatabase().then(() => {
+  if (process.env.NODE_ENV !== 'production') {
     app.listen(PORT, () => {
       console.log(`Server is running on port ${PORT}`);
     });
-  }).catch(err => {
-    console.error('Failed to initialize database:', err);
-  });
-}
+  }
+}).catch(err => {
+  console.error('Failed to initialize database:', err);
+});
